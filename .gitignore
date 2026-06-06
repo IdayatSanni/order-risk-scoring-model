@@ -1,0 +1,49 @@
+# Data (Blackboard dataset - do not upload)
+data/raw/
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb~
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+
+# Models (can be large)
+outputs/models/*.pkl
+outputs/models/*.joblib
+outputs/models/*.h5
+
+# Azure ML
+.azureml/
+*.amlignore
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials (never upload these)
+*.env
+secrets.json
+config.yaml
